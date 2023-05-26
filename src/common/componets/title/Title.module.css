@@ -1,23 +1,12 @@
-.skillsBlock{
-    min-height: 100vh;
-    background-color: palegreen;
-}
-
-.skillsContainer{
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
 .title{
-    font-family: "Montserrat", sans-serif;
-    color: #3c3e41;
 }
 
 .title h2 {
     color: #3c3e41;
     text-align: center;
     margin: 0;
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.2;
     font-family: "Montserrat", sans-serif;
@@ -33,13 +22,4 @@
 
 .title::before{
     content: '';
-}
-
-.skills{
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
 }

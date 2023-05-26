@@ -1,10 +1,18 @@
-import React from 'react';
 
-export const Projects = () => {
-    return (
-        <div>
+.projectsBocks{
+    min-height: 100vh;
+    background:linear-gradient(145deg, #e2e8ec, #ffffff);
+}
 
-        </div>
-    );
-};
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
+}
+@media screen and (max-width:1129px) {
+    .projects{
+        justify-content: center;
+    }
+}

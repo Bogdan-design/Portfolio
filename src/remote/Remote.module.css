@@ -1,10 +1,17 @@
-import React from 'react';
+.remoteBlock {
+    height: 30vh;
+    background-color: palegreen;
+}
 
-export const Remote = () => {
-    return (
-        <div>
+.remoteContainer {
+    flex-direction: column;
 
-        </div>
-    );
-};
+}
 
+.remoteButton {
+    text-transform: uppercase;
+    background-color: gold;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+}
