@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import s from '../project/Project.module.css'
+import s from './Project.module.scss'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import {Button} from '../../common/componets/button/Button';
@@ -18,7 +18,7 @@ export const Project: FC<Props> = ({title, description,style}) => {
                 <div className={s.img} style={style}>
                     <Button name={'show'} />
                 </div>
-                <div className={s.projectsContainer}>
+                <div className={s.projectInfo}>
                     <h3 className={s.title}>{title}</h3>
                     <span className={s.description}>{description}</span>
                 </div>

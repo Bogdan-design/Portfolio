@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import Stack from '@mui/material/Stack';
 import ButtonMui from '@mui/material/Button';
-import s from '../button/Button.module.css'
+import s from './Button.module.scss'
 
 type Props = {
     name: string

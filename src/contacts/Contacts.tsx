@@ -1,7 +1,8 @@
 import React from 'react';
 import s from './Contacts.module.css'
-import sContainer from "../common/style/Container.module.css";
+import sContainer from "../common/style/Container.module.scss";
 import {Title} from "../common/componets/title/Title";
+import {Button} from "../common/componets/button/Button";
 
 export const Contacts = () => {
     return (
@@ -13,7 +14,7 @@ export const Contacts = () => {
                     <input className={s.input} type="text" />
                     <textarea className={s.textarea} name="" ></textarea>
                 </form>
-                <button type="submit" className={s.contactsButton}>send</button>
+                <Button name={'send'} />
             </div>
         </div>
     );

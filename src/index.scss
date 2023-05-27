@@ -1,10 +1,12 @@
+@import "./common/style/sass/veriables";
+
 body {
   margin: 0;
-  font-family:"Montserrat", sans-serif;
-  color: #1e2125;
+  font-family:$fontFamilyText;
+  color: $textColor;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:#e2e8ec;
+  background:$bgColor;
 }
 
 code {

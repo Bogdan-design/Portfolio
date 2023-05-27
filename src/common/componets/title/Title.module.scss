@@ -1,0 +1,22 @@
+@import "../../style/sass/mixins";
+@import "../../style/sass/veriables";
+
+.title {
+  .h2 {
+    @include text($fontFamilyTitle, 32px, 1.2, $textColor, 700);
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: break-word;
+    display: block;
+    position: relative;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    background: #dce1e4;
+    width: 20px;
+    height: 1px;
+  }
+}

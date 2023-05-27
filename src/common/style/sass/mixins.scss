@@ -1,0 +1,9 @@
+@import "./veriables";
+
+@mixin text($fontFamily,$fontSize,$lineHeight,$color,$fontWeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $color;
+  font-weight: $fontWeight;
+}

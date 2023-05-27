@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Footer.module.css'
-import sContainer from "../common/style/Container.module.css";
-import sTitle from '../skils/Skills.module.css'
+import sContainer from "../common/style/Container.module.scss";
+import sTitle from '../skils/Skills.module.scss'
 import {Title} from "../common/componets/title/Title";
 
 export const Footer = () => {

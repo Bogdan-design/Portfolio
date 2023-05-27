@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import sTitle from '../title/Title.module.css'
+import sTitle from './Title.module.scss'
 
 type Props = {
     text:string

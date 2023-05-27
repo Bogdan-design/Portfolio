@@ -1,7 +1,9 @@
 import React from 'react';
 import s from './Remote.module.css'
-import sContainer from '../common/style/Container.module.css'
+import sContainer from '../common/style/Container.module.scss'
 import {Title} from "../common/componets/title/Title";
+import {Button} from "../common/componets/button/Button";
+
 
 
 export const Remote = () => {
@@ -9,7 +11,7 @@ export const Remote = () => {
         <div className={s.remoteBlock}>
             <div className={`${sContainer.container} ${s.remoteContainer}`}>
                 <Title text={'Remote work'} />
-                <button className={s.remoteButton}>employ me</button>
+                <Button  name={'employ me'}/>
             </div>
         </div>
     );

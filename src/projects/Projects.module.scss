@@ -1,0 +1,19 @@
+@import "../common/style/sass/veriables";
+.projectsBocks {
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 12px;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      @media screen and (max-width: 1129px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+

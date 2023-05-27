@@ -1,11 +1,17 @@
 .skillsBlock{
-    min-height: 100vh;
-    background-color: palegreen;
 }
 
 .skillsContainer{
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.skillsContainer::before {
+    content: '';
+    position: absolute;
+    background: #dce1e4;
+    width: 100%;
+    height: 1px;
 }
 
 .title{
@@ -39,7 +45,7 @@
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
