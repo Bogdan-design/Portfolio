@@ -11,12 +11,4 @@
     display: block;
     position: relative;
   }
-
-  &::after {
-    content: '';
-    position: absolute;
-    background: #dce1e4;
-    width: 20px;
-    height: 1px;
-  }
 }

@@ -1,0 +1,15 @@
+.remoteBlock {
+  height: 30vh;
+  &::before {
+    content: '';
+    position: absolute;
+    background: #dce1e4;
+    width: 100%;
+    height: 1px;
+  }
+  .remoteContainer {
+    flex-direction: column;
+  }
+}
+
+

@@ -1,51 +1,20 @@
-.skillsBlock{
-}
-
-.skillsContainer{
+.skillsBlock {
+  .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-}
+    &::before {
+      content: '';
+      position: absolute;
+      background: #dce1e4;
+      width: 100%;
+      height: 1px;
+    }
 
-.skillsContainer::before {
-    content: '';
-    position: absolute;
-    background: #dce1e4;
-    width: 100%;
-    height: 1px;
-}
-
-.title{
-    font-family: "Montserrat", sans-serif;
-    color: #3c3e41;
-}
-
-.title h2 {
-    color: #3c3e41;
-    text-align: center;
-    margin: 0;
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 1.2;
-    font-family: "Montserrat", sans-serif;
-    box-sizing: border-box;
-    word-break: break-word;
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    position: relative;
-}
-
-.title::before{
-    content: '';
-}
-
-.skills{
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
 }

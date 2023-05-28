@@ -1,22 +1,20 @@
-import React from 'react';
-import s from './Skill.module.css'
+import React, {FC} from 'react';
+import s from './Skill.module.scss'
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
+import {Title} from "../../common/componets/title/Title";
 
-type PropsType = {
+type Props = {
     title: string
-    description: string
+    styleSkill: React.CSSProperties
 }
 
-export const Skill = (props: PropsType) => {
+export const Skill: FC<Props> = ({title,styleSkill}) => {
     return (
         <Box>
             <Paper elevation={3} className={s.skill}>
-                <div className={s.icon}></div>
-                <h3>{props.title}</h3>
-                <span className={s.description}>
-                {props.description}
-                </span>
+                <div style={styleSkill} className={s.icon}></div>
+                <Title text={title} />
             </Paper>
         </Box>
     );
