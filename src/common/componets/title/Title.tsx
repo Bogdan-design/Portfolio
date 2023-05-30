@@ -3,12 +3,13 @@ import sTitle from './Title.module.scss'
 
 type Props = {
     text:string
+    style?:React.CSSProperties
 }
 
-export const Title: FC<Props> = ({text}) => {
+export const Title: FC<Props> = ({text, style}) => {
     return (
         <div className={sTitle.title}>
-            <h2>{text}</h2>
+            <h2 style={style}>{text}</h2>
         </div>
     );
 };

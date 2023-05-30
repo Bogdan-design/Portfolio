@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Skills.module.scss'
-import sContainer from '../common/style/Container.module.scss'
 import {Skill} from "./skill/Skill";
 import {Title} from '../common/componets/title/Title'
 import iconJS from "../assets/image/skills/js-svgrepo-com.svg";
@@ -10,7 +9,6 @@ import iconReact from "../assets/image/skills/react-svgrepo-com.svg";
 import iconRedux from "../assets/image/skills/redux-svgrepo-com.svg";
 import iconNext from "../assets/image/skills/next-dot-js-svgrepo-com.svg";
 import iconTypescript from "../assets/image/skills/typescript-official-svgrepo-com.svg";
-
 
 type SkillType = {
     id: number
@@ -32,7 +30,7 @@ export const Skills = () => {
 
     return (
         <div className={s.skillsBlock}>
-            <div className={`${sContainer.container} ${s.skillsContainer}`}>
+            <div className={s.container}>
                 <Title text={'Skills'}/>
                 <div className={s.skills}>
                     {skills.map(s=>{

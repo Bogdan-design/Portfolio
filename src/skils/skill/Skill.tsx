@@ -9,12 +9,12 @@ type Props = {
     styleSkill: React.CSSProperties
 }
 
-export const Skill: FC<Props> = ({title,styleSkill}) => {
+export const Skill: FC<Props> = ({title, styleSkill}) => {
     return (
         <Box>
             <Paper elevation={3} className={s.skill}>
                 <div style={styleSkill} className={s.icon}></div>
-                <Title text={title} />
+                <Title style={{fontSize:14}} text={title}/>
             </Paper>
         </Box>
     );

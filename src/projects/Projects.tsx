@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Projects.module.scss'
-import sContainer from "../common/style/Container.module.scss";
 import {Project} from "./project/Project";
 import {Title} from '../common/componets/title/Title'
 import todoImage from '../assets/image/todolist.png'
@@ -17,7 +16,7 @@ export const Projects = () => {
 
     return (
         <div className={s.projectsBocks}>
-            <div className={`${sContainer.container} ${s.projectsContainer}`}>
+            <div className={s.container}>
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
                     <Project style={socialNetworkStyle} title={'Social Network'} description={'brief description brief description'}/>

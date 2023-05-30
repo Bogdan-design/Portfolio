@@ -1,7 +1,12 @@
+@import "../common/style/sass/mixins";
+@import "../common/style/sass/veriables";
+
 .skillsBlock {
-  .skillsContainer {
+  .container {
+    @include container();
     flex-direction: column;
     justify-content: flex-start;
+
     &::before {
       content: '';
       position: absolute;

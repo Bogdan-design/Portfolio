@@ -1,15 +1,12 @@
 @import "../common/style/sass/mixins";
+@import "../common/style/sass/veriables";
 
 .nav {
-  @include text($fontFamilyText, 24px, 32px, #1e2125, 500);
   width: 400px;
   display: flex;
   justify-content: space-evenly;
-  &::after {
-    content: '';
-    position: absolute;
-    background: #dce1e4;
-    width: 100%;
-    height: 1px;
+  a {
+    text-decoration: none;
+    @include text($fontFamilyText, 24px, 22px, $textColor, 500);
   }
 }

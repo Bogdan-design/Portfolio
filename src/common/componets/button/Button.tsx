@@ -1,6 +1,5 @@
 import React, {FC} from 'react';
-import Stack from '@mui/material/Stack';
-import ButtonMui from '@mui/material/Button';
+
 import s from './Button.module.scss'
 
 type Props = {
@@ -10,11 +9,7 @@ type Props = {
 export const Button: FC<Props> = ({name}) => {
 
     return (
-        <Stack>
-            <ButtonMui className={s.button} variant="contained" color="info">
-                {name}
-            </ButtonMui>
-        </Stack>
+            <a href="" className={s.button}>{name}</a>
     );
 };
 

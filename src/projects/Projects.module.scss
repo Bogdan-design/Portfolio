@@ -1,6 +1,9 @@
 @import "../common/style/sass/veriables";
+@import "../common/style/sass/mixins";
+
 .projectsBocks {
-  .projectsContainer {
+  .container {
+    @include container();
     flex-direction: column;
     justify-content: flex-start;
     padding: 15px 12px;
