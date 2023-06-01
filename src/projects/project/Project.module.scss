@@ -32,6 +32,7 @@
   }
 
   .projectInfo {
+    @include flex(column, center, flex-start, nowrap);
     padding: 15px 12px;
 
 

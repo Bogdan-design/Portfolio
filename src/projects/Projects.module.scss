@@ -5,7 +5,7 @@
   .container {
     @include container();
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 15px 12px;
     &::before {
       content: '';

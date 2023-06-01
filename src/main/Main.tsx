@@ -3,6 +3,7 @@ import s from '../main/Main.module.scss'
 import Typewriter from 'typewriter-effect';
 
 
+
 export const Main = () => {
 
     return (

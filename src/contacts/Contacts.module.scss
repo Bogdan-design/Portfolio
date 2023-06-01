@@ -30,6 +30,7 @@
       .textarea {
         background: $bgSecondColor;
         border: 1px solid $textColor;
+        border-radius: 3px;
         box-sizing: border-box;
         @include text (inherit,12px,1.5,#495057,400);
         outline: none;
@@ -48,7 +49,7 @@
         height: calc(1.5em + .75rem + 2px);
         padding: .4rem 15px;
         &:focus{
-          border: 1px solid $primaryColor;
+          border: 2px solid $primaryColor;
           transition: all 0.4s ease-in-out 0s;
         }
       }
@@ -57,7 +58,7 @@
         padding: 15px;
         resize: none;
         &:focus {
-          border: 1px solid $primaryColor;
+          border: 2px solid $primaryColor;
           transition: all 0.4s ease-in-out 0s;
         }
       }
