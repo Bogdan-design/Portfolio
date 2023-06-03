@@ -5,6 +5,7 @@
   height: 80px;
   padding: 0 30px;
   @include flex(row,center,center,nowrap);
+  background: $bgColor;
   z-index: 9999;
   position: fixed;
   left: 0;
