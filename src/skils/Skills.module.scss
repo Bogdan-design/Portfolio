@@ -9,9 +9,10 @@
 
     &::before {
       content: '';
+      display: none;
       position: absolute;
       background: #dce1e4;
-      width: 100%;
+      width: 80%;
       height: 1px;
     }
 

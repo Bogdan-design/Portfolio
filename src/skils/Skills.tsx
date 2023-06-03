@@ -17,6 +17,8 @@ type SkillType = {
    }
 
 export const Skills = () => {
+    const Fade = require("react-reveal/Fade")
+
 
     const skills:SkillType[]=[
         {id:0,title:'HTML',style: {backgroundImage: `url(${iconHTML})`}},
@@ -29,7 +31,8 @@ export const Skills = () => {
     ]
 
     return (
-        <div className={s.skillsBlock}>
+        <div id={"skills"} className={s.skillsBlock}>
+            <Fade bottom>
             <div className={s.container}>
                 <Title text={'Skills'}/>
                 <div className={s.skills}>
@@ -38,6 +41,7 @@ export const Skills = () => {
                     })}
                 </div>
             </div>
+            </Fade>
         </div>
     );
 };

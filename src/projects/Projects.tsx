@@ -15,7 +15,7 @@ export const Projects = () => {
     }
 
     return (
-        <div className={s.projectsBocks}>
+        <div id={'projects'} className={s.projectsBocks}>
             <div className={s.container}>
                 <Title text={'Projects'}/>
                 <div className={s.projects}>

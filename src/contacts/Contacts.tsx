@@ -4,7 +4,7 @@ import {Title} from "../common/componets/title/Title";
 
 export const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
+        <div id={'contacts'} className={s.contactsBlock}>
             <div className={s.container}>
                 <Title text={'Contacts'}/>
                 <form className={s.form} action="">

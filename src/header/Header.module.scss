@@ -1,8 +1,12 @@
 @import "../common/style/sass/veriables";
+@import "../common/style/sass/mixins";
 
 .header {
   height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0 30px;
+  @include flex(row,center,center,nowrap);
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  right: 0;
 }

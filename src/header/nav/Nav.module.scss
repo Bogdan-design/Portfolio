@@ -1,0 +1,24 @@
+@import "../../common/style/sass/mixins";
+@import "../../common/style/sass/veriables";
+
+.nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    @include text($fontFamilyText, 24px, 22px, $textColor, 500);
+    cursor: pointer;
+    &:hover {
+      color: $primaryColor;
+    }
+
+  }
+  .active{
+    cursor: pointer;
+  }
+  @media screen and (max-width:400px) {
+    display: none;
+  }
+}
