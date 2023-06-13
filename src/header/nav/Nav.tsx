@@ -4,7 +4,6 @@ import {Link} from 'react-scroll'
 
 
 export const Nav = () => {
-
     return (
         <div className={s.nav}>
             <Link activeClass={s.active}

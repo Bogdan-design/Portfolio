@@ -4,12 +4,13 @@ import s from './Button.module.scss'
 
 type Props = {
     name: string
+    url:string
 }
 
-export const Button: FC<Props> = ({name}) => {
+export const Button: FC<Props> = ({name,url}) => {
 
     return (
-            <a href="" className={s.button}>{name}</a>
+            <a href={url} className={s.button}>{name}</a>
     );
 };
 
