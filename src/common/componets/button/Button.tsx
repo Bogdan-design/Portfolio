@@ -4,7 +4,7 @@ import s from './Button.module.scss'
 
 type Props = {
     name: string
-    url:string
+    url?:string
 }
 
 export const Button: FC<Props> = ({name,url}) => {
