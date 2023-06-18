@@ -28,7 +28,6 @@ export const Skills = () => {
         {id:4,title:'Next.js',style: {backgroundImage: `url(${iconNext})`}},
         {id:5,title:'Typescript',style: {backgroundImage: `url(${iconTypescript})`}},
         {id:6,title:'Redux',style: {backgroundImage: `url(${iconRedux})`}},
-        {id:6,title:'Redux',style: {backgroundImage: `url(${iconRedux})`}},
     ]
 
     return (
