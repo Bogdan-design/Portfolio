@@ -14,6 +14,7 @@
     outline: none;
     position: relative;
     z-index: 0;
+    cursor: pointer;
     &::after {
         content: "";
         border-radius: 3px;
