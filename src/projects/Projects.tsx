@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Projects.module.scss'
 import {Project} from "./project/Project";
-import {Title} from '../common/componets/title/Title'
+import {Title} from 'common/componets/title/Title'
 import todoImage from '../assets/image/todolist.png'
 import socialNetworkImage from '../assets/image/social.network.jpg'
 
@@ -18,10 +18,10 @@ export const Projects = () => {
     const projects: ProjectsType[] = [
         {
             id: 0,
-            url: 'https://todo-list-sigma-five-94.vercel.app/login',
+            url: 'https://bogdan-design.github.io/lifebook',
             style: {backgroundImage: `url(${socialNetworkImage})`},
-            title: 'Social Network',
-            description: 'brief description brief description'
+            title: 'Lifebook',
+            description: 'Behold my magnum opus – a creation inspired by the legendary Facebook, but with my own unique touch! This project showcases my exceptional skills as a developer and my dedication to crafting an exceptional social networking experience. Connect with me to explore this innovative platform, a testament to my prowess as a top-notch developer.'
 
         },
 

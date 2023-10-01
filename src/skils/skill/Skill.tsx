@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import s from './Skill.module.scss'
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
-import {Title} from "../../common/componets/title/Title";
+import {Title} from "common/componets/title/Title";
 
 type Props = {
     title: string

@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import s from './Project.module.scss'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
-import {Button} from '../../common/componets/button/Button';
+import {Button} from 'common/componets/button/Button';
 
 type Props = {
     style:React.CSSProperties

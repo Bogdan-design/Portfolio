@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Footer.module.scss'
-import {Title} from "../common/componets/title/Title";
-import linkedinIcon from "../assets/image/contacts/linkedin.svg";
-import githubIcon from "../assets/image/contacts/github.svg";
-import facebookIcon from "../assets/image/contacts/facebook.svg";
-import telegramIcon from "../assets/image/contacts/telegram.svg";
+import {Title} from "common/componets/title/Title";
+import linkedinIcon from "assets/image/contacts/linkedin.svg";
+import githubIcon from "assets/image/contacts/github.svg";
+import facebookIcon from "assets/image/contacts/facebook.svg";
+import telegramIcon from "assets/image/contacts/telegram.svg";
 
 type IconContactsType = {
     id: number
